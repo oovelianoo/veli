@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">Current VELI systems</title>
+  <desc id="desc">Five calm futuristic system cards for VELI OS, MUDCUB, TETRAIX, Avitolog, and VELI Live.</desc>
+  <defs>
+    <linearGradient id="systems-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090f19" />
+      <stop offset="1" stop-color="#101426" />
+    </linearGradient>
+    <linearGradient id="systems-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#42e8b4" />
+      <stop offset="0.58" stop-color="#32d9ff" />
+      <stop offset="1" stop-color="#9b8cff" />
+    </linearGradient>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .status-a { animation: status 3.8s ease-in-out infinite; }
+      .status-b { animation: status 3.8s 0.55s ease-in-out infinite; }
+      .status-c { animation: status 3.8s 1.1s ease-in-out infinite; }
+      .status-d { animation: status 3.8s 1.65s ease-in-out infinite; }
+      .status-e { animation: status 3.8s 2.2s ease-in-out infinite; }
+      @keyframes status { 0%, 100% { opacity: .38; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .status-a, .status-b, .status-c, .status-d, .status-e { animation: none; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="470" rx="16" fill="url(#systems-bg)" />
+  <rect x="1" y="1" width="1198" height="468" rx="15" fill="none" stroke="#263449" stroke-width="2" />
+  <text x="32" y="34" class="mono" font-size="11" letter-spacing="2" fill="#71839d">VELI / CURRENT SYSTEMS</text>
+  <text x="1168" y="34" text-anchor="end" class="mono" font-size="11" letter-spacing="1.5" fill="#42e8b4">05 NODES / ONLINE</text>
+  <path d="M32 51H1168" stroke="#263449" />
+  <path d="M32 51H318" stroke="url(#systems-accent)" stroke-width="2" stroke-linecap="round" />
+
+  <!-- top row -->
+  <g class="mono">
+    <rect x="32" y="76" width="360" height="148" rx="10" fill="#0d1522" stroke="#26384f" />
+    <circle cx="55" cy="102" r="4" fill="#42e8b4" class="status-a" />
+    <text x="70" y="106" font-size="10" letter-spacing="1.5" fill="#42e8b4">ACTIVE DEVELOPMENT</text>
+    <text x="54" y="143" font-size="23" font-weight="700" letter-spacing="1" fill="#f4f8ff">VELI OS</text>
+    <text x="54" y="168" font-size="12" fill="#a9b7cb">AI-native operating layer</text>
+    <text x="54" y="187" font-size="12" fill="#a9b7cb">for local-first work and agents.</text>
+    <path d="M54 205H370" stroke="#24364c" />
+    <path d="M54 205H294" stroke="#42e8b4" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <g class="mono">
+    <rect x="420" y="76" width="360" height="148" rx="10" fill="#0d1522" stroke="#26384f" />
+    <circle cx="443" cy="102" r="4" fill="#32d9ff" class="status-b" />
+    <text x="458" y="106" font-size="10" letter-spacing="1.5" fill="#32d9ff">BUILDING</text>
+    <text x="442" y="143" font-size="23" font-weight="700" letter-spacing="1" fill="#f4f8ff">MUDCUB</text>
+    <text x="442" y="168" font-size="12" fill="#a9b7cb">A focused surface for ideas,</text>
+    <text x="442" y="187" font-size="12" fill="#a9b7cb">references, and tangible output.</text>
+    <path d="M442 205H758" stroke="#24364c" />
+    <path d="M442 205H647" stroke="#32d9ff" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <g class="mono">
+    <rect x="808" y="76" width="360" height="148" rx="10" fill="#0d1522" stroke="#26384f" />
+    <circle cx="831" cy="102" r="4" fill="#c4b5fd" class="status-c" />
+    <text x="846" y="106" font-size="10" letter-spacing="1.5" fill="#c4b5fd">R&amp;D</text>
+    <text x="830" y="143" font-size="23" font-weight="700" letter-spacing="1" fill="#f4f8ff">TETRAIX</text>
+    <text x="830" y="168" font-size="12" fill="#a9b7cb">Research across intelligence,</text>
+    <text x="830" y="187" font-size="12" fill="#a9b7cb">automation, and product systems.</text>
+    <path d="M830 205H1146" stroke="#24364c" />
+    <path d="M830 205H1009" stroke="#c4b5fd" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- bottom row -->
+  <g class="mono">
+    <rect x="32" y="246" width="558" height="148" rx="10" fill="#0d1522" stroke="#26384f" />
+    <circle cx="55" cy="272" r="4" fill="#f3c969" class="status-d" />
+    <text x="70" y="276" font-size="10" letter-spacing="1.5" fill="#f3c969">BUILDING</text>
+    <text x="54" y="313" font-size="23" font-weight="700" letter-spacing="1" fill="#f4f8ff">AVITOLOG</text>
+    <text x="54" y="338" font-size="12" fill="#a9b7cb">Structured workflows and practical automation</text>
+    <text x="54" y="357" font-size="12" fill="#a9b7cb">designed to remove operational friction.</text>
+    <path d="M54 375H566" stroke="#24364c" />
+    <path d="M54 375H365" stroke="#f3c969" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <g class="mono">
+    <rect x="610" y="246" width="558" height="148" rx="10" fill="#0d1522" stroke="#26384f" />
+    <circle cx="633" cy="272" r="4" fill="#42e8b4" class="status-e" />
+    <text x="648" y="276" font-size="10" letter-spacing="1.5" fill="#42e8b4">LIVE INTEGRATION</text>
+    <text x="632" y="313" font-size="23" font-weight="700" letter-spacing="1" fill="#f4f8ff">VELI LIVE</text>
+    <text x="632" y="338" font-size="12" fill="#a9b7cb">The live creative and operational surface</text>
+    <text x="632" y="357" font-size="12" fill="#a9b7cb">where software meets visual production.</text>
+    <path d="M632 375H1144" stroke="#24364c" />
+    <path d="M632 375H1026" stroke="#42e8b4" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <text x="32" y="435" class="mono" font-size="10" letter-spacing="1.6" fill="#71839d">SYSTEMS ARE CONNECTED BY ONE IDEA / TURN COMPLEXITY INTO CAPABILITY</text>
+  <circle cx="1168" cy="432" r="4" fill="#32d9ff" class="status-a" />
+</svg>

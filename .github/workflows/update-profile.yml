@@ -1,0 +1,42 @@
+name: Update profile telemetry
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  telemetry:
+    name: Refresh public GitHub signals
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate telemetry SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_telemetry.py --username oovelianoo
+
+      - name: Commit telemetry when it changed
+        shell: bash
+        run: |
+          if git diff --quiet -- assets/telemetry.svg; then
+            echo "Telemetry is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/telemetry.svg
+          git commit -m "chore: refresh profile telemetry"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

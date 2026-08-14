@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub telemetry for oovelianoo</title>
+  <desc id="desc">Public repository, follower, recent activity, push event, and primary language signals for the VELI profile.</desc>
+  <defs>
+    <linearGradient id="telemetry-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090f19" />
+      <stop offset="1" stop-color="#111326" />
+    </linearGradient>
+    <linearGradient id="telemetry-edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#42e8b4" />
+      <stop offset="0.54" stop-color="#32d9ff" />
+      <stop offset="1" stop-color="#c4b5fd" />
+    </linearGradient>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="390" rx="16" fill="url(#telemetry-bg)" />
+  <rect x="1" y="1" width="1198" height="388" rx="15" fill="none" stroke="#263449" stroke-width="2" />
+  <text x="32" y="35" class="mono" font-size="11" letter-spacing="2" fill="#71839d">VELI / GITHUB TELEMETRY</text>
+  <text x="1168" y="35" text-anchor="end" class="mono" font-size="11" letter-spacing="1.5" fill="#42e8b4">SYNC / 2026-08-14 UTC</text>
+  <path d="M32 52H1168" stroke="#263449" />
+  <path d="M32 52H344" stroke="url(#telemetry-edge)" stroke-width="2" stroke-linecap="round" />
+
+  <g class="mono">
+    
+    <rect x="32" y="76" width="260" height="88" rx="10" fill="#0d1522" stroke="#26384f" />
+    <rect x="52" y="96" width="3" height="42" rx="1.5" fill="#42e8b4" />
+    <text x="70" y="101" class="mono" font-size="10" letter-spacing="1.5" fill="#71839d">PUBLIC REPOSITORIES</text>
+    <text x="70" y="130" class="mono" font-size="24" font-weight="700" letter-spacing="0.8" fill="#f4f8ff">2</text>
+    <text x="70" y="151" class="mono" font-size="10" letter-spacing="1.2" fill="#42e8b4">PUBLIC SIGNAL</text>
+    
+    <rect x="310" y="76" width="260" height="88" rx="10" fill="#0d1522" stroke="#26384f" />
+    <rect x="330" y="96" width="3" height="42" rx="1.5" fill="#32d9ff" />
+    <text x="348" y="101" class="mono" font-size="10" letter-spacing="1.5" fill="#71839d">FOLLOWERS</text>
+    <text x="348" y="130" class="mono" font-size="24" font-weight="700" letter-spacing="0.8" fill="#f4f8ff">0</text>
+    <text x="348" y="151" class="mono" font-size="10" letter-spacing="1.2" fill="#32d9ff">NETWORK SIGNAL</text>
+    
+    <rect x="588" y="76" width="260" height="88" rx="10" fill="#0d1522" stroke="#26384f" />
+    <rect x="608" y="96" width="3" height="42" rx="1.5" fill="#c4b5fd" />
+    <text x="626" y="101" class="mono" font-size="10" letter-spacing="1.5" fill="#71839d">ACTIVE DAYS / 30D</text>
+    <text x="626" y="130" class="mono" font-size="24" font-weight="700" letter-spacing="0.8" fill="#f4f8ff">3</text>
+    <text x="626" y="151" class="mono" font-size="10" letter-spacing="1.2" fill="#c4b5fd">ACTIVITY FEED</text>
+    
+    <rect x="866" y="76" width="260" height="88" rx="10" fill="#0d1522" stroke="#26384f" />
+    <rect x="886" y="96" width="3" height="42" rx="1.5" fill="#f3c969" />
+    <text x="904" y="101" class="mono" font-size="10" letter-spacing="1.5" fill="#71839d">PUSH EVENTS / 30D</text>
+    <text x="904" y="130" class="mono" font-size="24" font-weight="700" letter-spacing="0.8" fill="#f4f8ff">0</text>
+    <text x="904" y="151" class="mono" font-size="10" letter-spacing="1.2" fill="#f3c969">RECENT SHIPPING</text>
+    
+
+    <rect x="32" y="190" width="740" height="152" rx="10" fill="#0d1522" stroke="#26384f" />
+    <text x="56" y="218" font-size="10" letter-spacing="1.7" fill="#32d9ff">ACTIVITY / LAST 30 DAYS</text>
+    <text x="748" y="218" text-anchor="end" font-size="10" letter-spacing="1.2" fill="#71839d">EVENT FEED / 2026-08-14</text>
+    <path d="M66 302H708" stroke="#26384f" />
+    
+            <rect x="86" y="288" width="54" height="14" rx="4" fill="#32d9ff" fill-opacity="0.72">
+            <animate attributeName="fill-opacity" values="0.46;0.82;0.46" dur="4.8s" begin="0.0s" repeatCount="indefinite" />
+            </rect>
+            <text x="113" y="280" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">0</text>
+            <text x="113" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">15/07</text>
+            
+            <rect x="190" y="288" width="54" height="14" rx="4" fill="#32d9ff" fill-opacity="0.72">
+            <animate attributeName="fill-opacity" values="0.46;0.82;0.46" dur="4.8s" begin="0.2s" repeatCount="indefinite" />
+            </rect>
+            <text x="217" y="280" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">0</text>
+            <text x="217" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">20/07</text>
+            
+            <rect x="294" y="288" width="54" height="14" rx="4" fill="#32d9ff" fill-opacity="0.72">
+            <animate attributeName="fill-opacity" values="0.46;0.82;0.46" dur="4.8s" begin="0.4s" repeatCount="indefinite" />
+            </rect>
+            <text x="321" y="280" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">0</text>
+            <text x="321" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">25/07</text>
+            
+            <rect x="398" y="288" width="54" height="14" rx="4" fill="#32d9ff" fill-opacity="0.72">
+            <animate attributeName="fill-opacity" values="0.46;0.82;0.46" dur="4.8s" begin="0.6s" repeatCount="indefinite" />
+            </rect>
+            <text x="425" y="280" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">0</text>
+            <text x="425" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">30/07</text>
+            
+            <rect x="502" y="288" width="54" height="14" rx="4" fill="#32d9ff" fill-opacity="0.72">
+            <animate attributeName="fill-opacity" values="0.46;0.82;0.46" dur="4.8s" begin="0.8s" repeatCount="indefinite" />
+            </rect>
+            <text x="529" y="280" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">0</text>
+            <text x="529" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">04/08</text>
+            
+            <rect x="606" y="234" width="54" height="68" rx="4" fill="#32d9ff" fill-opacity="0.72">
+            <animate attributeName="fill-opacity" values="0.46;0.82;0.46" dur="4.8s" begin="1.0s" repeatCount="indefinite" />
+            </rect>
+            <text x="633" y="226" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">4</text>
+            <text x="633" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">09/08</text>
+            
+
+    <rect x="800" y="190" width="368" height="152" rx="10" fill="#0d1522" stroke="#26384f" />
+    <text x="824" y="218" font-size="10" letter-spacing="1.7" fill="#c4b5fd">LANGUAGE SIGNAL</text>
+    <text x="1144" y="218" text-anchor="end" font-size="10" letter-spacing="1.2" fill="#71839d">PRIMARY MIX</text>
+    
+            <text x="842" y="235" class="mono" font-size="12" fill="#e7eef9">Python</text>
+            <text x="1138" y="235" text-anchor="end" class="mono" font-size="11" fill="#42e8b4">100%</text>
+            <path d="M842 248H1062" stroke="#24364c" />
+            <path d="M842 248H1062" stroke="#42e8b4" stroke-width="2" stroke-linecap="round" />
+            
+  </g>
+
+  <path d="M32 362H1168" stroke="#263449" />
+  <circle cx="44" cy="376" r="4" fill="#42e8b4">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="3.6s" repeatCount="indefinite" />
+  </circle>
+  <text x="58" y="380" class="mono" font-size="10" letter-spacing="1.5" fill="#71839d">oovelianoo / PUBLIC API / TRANSPARENT SIGNALS</text>
+</svg>
