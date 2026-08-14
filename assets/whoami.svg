@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Whoami — Daniil Terekhov</title>
+  <desc id="desc">A terminal-style identity panel describing Daniil Terekhov as a founder, product builder, AI systems builder, and CGI generalist.</desc>
+  <defs>
+    <linearGradient id="who-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a101b" />
+      <stop offset="1" stop-color="#0e1425" />
+    </linearGradient>
+    <linearGradient id="who-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#42e8b4" />
+      <stop offset="0.52" stop-color="#32d9ff" />
+      <stop offset="1" stop-color="#9b8cff" />
+    </linearGradient>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .pulse { animation: pulse 4.2s ease-in-out infinite; }
+      .cursor { animation: cursor 1.2s steps(1, end) infinite; }
+      @keyframes pulse { 0%, 100% { opacity: .32; } 50% { opacity: .95; } }
+      @keyframes cursor { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .pulse, .cursor { animation: none; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="280" rx="16" fill="url(#who-bg)" />
+  <rect x="1" y="1" width="1198" height="278" rx="15" fill="none" stroke="#263449" stroke-width="2" />
+  <path d="M28 28H1172" stroke="#27384e" />
+  <text x="34" y="22" class="mono" font-size="10" letter-spacing="1.8" fill="#71839d">VELI / IDENTITY PROFILE</text>
+  <circle cx="1150" cy="22" r="4" fill="#42e8b4" class="pulse" />
+
+  <g class="mono">
+    <text x="42" y="88" font-size="14" letter-spacing="2.6" fill="#32d9ff">01 / WHOAMI</text>
+    <text x="42" y="144" font-size="32" font-weight="700" letter-spacing="1.2" fill="#f4f8ff">FOUNDER + BUILDER</text>
+    <text x="42" y="177" font-size="14" letter-spacing="0.8" fill="#a9b7cb">I build AI-native tools, systems, and creative infrastructure</text>
+    <text x="42" y="201" font-size="14" letter-spacing="0.8" fill="#a9b7cb">for people who want complex workflows to feel simple.</text>
+  </g>
+
+  <path d="M625 58V226" stroke="#263449" />
+  <path d="M625 58V120" stroke="#32d9ff" stroke-width="2" class="pulse" />
+
+  <g class="mono">
+    <text x="670" y="78" font-size="11" letter-spacing="1.8" fill="#71839d">OPERATING ACROSS</text>
+    <circle cx="672" cy="111" r="3" fill="#42e8b4" />
+    <text x="688" y="116" font-size="14" fill="#e7eef9">Product strategy &amp; systems design</text>
+    <circle cx="672" cy="143" r="3" fill="#32d9ff" />
+    <text x="688" y="148" font-size="14" fill="#e7eef9">AI, automation &amp; local-first software</text>
+    <circle cx="672" cy="175" r="3" fill="#c4b5fd" />
+    <text x="688" y="180" font-size="14" fill="#e7eef9">CGI, 3D, motion &amp; creative tooling</text>
+    <circle cx="672" cy="207" r="3" fill="#f3c969" />
+    <text x="688" y="212" font-size="14" fill="#e7eef9">Engineering with a visual point of view</text>
+  </g>
+
+  <path d="M42 239H1158" stroke="#263449" />
+  <path d="M42 239H392" stroke="url(#who-line)" stroke-width="2" stroke-linecap="round" class="pulse" />
+  <text x="42" y="261" class="mono" font-size="10" letter-spacing="1.5" fill="#71839d">MISSION / TURN COMPLEX WORKFLOWS INTO SYSTEMS</text>
+  <rect x="1150" y="249" width="7" height="15" rx="1" fill="#42e8b4" class="cursor" />
+</svg>
