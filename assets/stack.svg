@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+  <title id="title">VELI technical stack</title>
+  <desc id="desc">A compact terminal dashboard of AI, Python, automation, CGI, 3D, design, and development tools.</desc>
+  <defs>
+    <linearGradient id="stack-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090f19" />
+      <stop offset="1" stop-color="#111326" />
+    </linearGradient>
+    <linearGradient id="stack-meter" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#42e8b4" />
+      <stop offset="0.55" stop-color="#32d9ff" />
+      <stop offset="1" stop-color="#c4b5fd" />
+    </linearGradient>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .meter { animation: meter 5s ease-in-out infinite; transform-origin: left center; }
+      .blink { animation: blink 1.1s steps(1, end) infinite; }
+      @keyframes meter { 0%, 100% { opacity: .38; } 50% { opacity: .9; } }
+      @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: .15; } }
+      @media (prefers-reduced-motion: reduce) { .meter, .blink { animation: none; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="350" rx="16" fill="url(#stack-bg)" />
+  <rect x="1" y="1" width="1198" height="348" rx="15" fill="none" stroke="#263449" stroke-width="2" />
+  <text x="32" y="35" class="mono" font-size="11" letter-spacing="2" fill="#71839d">VELI / TOOLCHAIN</text>
+  <text x="1168" y="35" text-anchor="end" class="mono" font-size="11" letter-spacing="1.5" fill="#32d9ff">CROSS-DISCIPLINARY</text>
+  <path d="M32 52H1168" stroke="#263449" />
+
+  <g class="mono">
+    <rect x="32" y="74" width="548" height="218" rx="10" fill="#0d1522" stroke="#26384f" />
+    <rect x="618" y="74" width="550" height="218" rx="10" fill="#0d1522" stroke="#26384f" />
+
+    <text x="56" y="101" font-size="10" letter-spacing="1.7" fill="#42e8b4">SYSTEMS / SOFTWARE</text>
+    <text x="642" y="101" font-size="10" letter-spacing="1.7" fill="#c4b5fd">CREATIVE / VISUAL</text>
+
+    <text x="56" y="132" font-size="13" letter-spacing="0.6" fill="#e7eef9">AI / BACKEND</text>
+    <text x="448" y="132" text-anchor="end" font-size="11" letter-spacing="1.1" fill="#71839d">SYSTEM DESIGN</text>
+    <path d="M56 145H556" stroke="#24364c" />
+    <path d="M56 145H442" stroke="#42e8b4" stroke-width="2" stroke-linecap="round" class="meter" />
+
+    <text x="56" y="174" font-size="13" letter-spacing="0.6" fill="#e7eef9">PYTHON</text>
+    <text x="448" y="174" text-anchor="end" font-size="11" letter-spacing="1.1" fill="#71839d">BUILD / AUTOMATE</text>
+    <path d="M56 187H556" stroke="#24364c" />
+    <path d="M56 187H388" stroke="#32d9ff" stroke-width="2" stroke-linecap="round" class="meter" />
+
+    <text x="56" y="216" font-size="13" letter-spacing="0.6" fill="#e7eef9">AUTOMATION</text>
+    <text x="448" y="216" text-anchor="end" font-size="11" letter-spacing="1.1" fill="#71839d">LOCAL-FIRST FLOW</text>
+    <path d="M56 229H556" stroke="#24364c" />
+    <path d="M56 229H476" stroke="#42e8b4" stroke-width="2" stroke-linecap="round" class="meter" />
+
+    <text x="56" y="258" font-size="13" letter-spacing="0.6" fill="#e7eef9">GIT / TOOLING</text>
+    <text x="448" y="258" text-anchor="end" font-size="11" letter-spacing="1.1" fill="#71839d">SHIP / ITERATE</text>
+    <path d="M56 271H556" stroke="#24364c" />
+    <path d="M56 271H352" stroke="#f3c969" stroke-width="2" stroke-linecap="round" class="meter" />
+
+    <text x="642" y="132" font-size="13" letter-spacing="0.6" fill="#e7eef9">CGI / 3D</text>
+    <text x="1036" y="132" text-anchor="end" font-size="11" letter-spacing="1.1" fill="#71839d">FORM / MOTION</text>
+    <path d="M642 145H1144" stroke="#24364c" />
+    <path d="M642 145H1046" stroke="#c4b5fd" stroke-width="2" stroke-linecap="round" class="meter" />
+
+    <text x="642" y="174" font-size="13" letter-spacing="0.6" fill="#e7eef9">CINEMA 4D</text>
+    <text x="1036" y="174" text-anchor="end" font-size="11" letter-spacing="1.1" fill="#71839d">DESIGN / RENDER</text>
+    <path d="M642 187H1144" stroke="#24364c" />
+    <path d="M642 187H972" stroke="#32d9ff" stroke-width="2" stroke-linecap="round" class="meter" />
+
+    <text x="642" y="216" font-size="13" letter-spacing="0.6" fill="#e7eef9">HOUDINI / REDSHIFT</text>
+    <text x="1036" y="216" text-anchor="end" font-size="11" letter-spacing="1.1" fill="#71839d">PROCEDURAL / LOOKDEV</text>
+    <path d="M642 229H1144" stroke="#24364c" />
+    <path d="M642 229H1008" stroke="#f3c969" stroke-width="2" stroke-linecap="round" class="meter" />
+
+    <text x="642" y="258" font-size="13" letter-spacing="0.6" fill="#e7eef9">FIGMA / DESIGN</text>
+    <text x="1036" y="258" text-anchor="end" font-size="11" letter-spacing="1.1" fill="#71839d">INTERFACE / SYSTEMS</text>
+    <path d="M642 271H1144" stroke="#24364c" />
+    <path d="M642 271H1100" stroke="#42e8b4" stroke-width="2" stroke-linecap="round" class="meter" />
+  </g>
+
+  <text x="32" y="322" class="mono" font-size="10" letter-spacing="1.6" fill="#71839d">STACK PRINCIPLE / CODE, DESIGN, AND OPERATIONS SHARE ONE SYSTEM VIEW</text>
+  <rect x="1160" y="310" width="7" height="15" rx="1" fill="#32d9ff" class="blink" />
+</svg>
