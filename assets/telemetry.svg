@@ -20,7 +20,7 @@
   <rect width="1200" height="390" rx="16" fill="url(#telemetry-bg)" />
   <rect x="1" y="1" width="1198" height="388" rx="15" fill="none" stroke="#263449" stroke-width="2" />
   <text x="32" y="35" class="mono" font-size="11" letter-spacing="2" fill="#71839d">VELI / GITHUB TELEMETRY</text>
-  <text x="1168" y="35" text-anchor="end" class="mono" font-size="11" letter-spacing="1.5" fill="#42e8b4">SYNC / 2026-08-31 UTC</text>
+  <text x="1168" y="35" text-anchor="end" class="mono" font-size="11" letter-spacing="1.5" fill="#42e8b4">SYNC / 2026-09-07 UTC</text>
   <path d="M32 52H1168" stroke="#263449" />
   <path d="M32 52H344" stroke="url(#telemetry-edge)" stroke-width="2" stroke-linecap="round" />
 
@@ -56,41 +56,41 @@
     <text x="748" y="218" text-anchor="end" font-size="10" letter-spacing="1.2" fill="#71839d">EVENT FEED / 2026-08-15</text>
     <path d="M66 302H708" stroke="#26384f" />
     
-            <rect x="86" y="288" width="54" height="14" rx="4" fill="#32d9ff" fill-opacity="0.72">
+            <rect x="86" y="268" width="54" height="34" rx="4" fill="#32d9ff" fill-opacity="0.72">
             <animate attributeName="fill-opacity" values="0.46;0.82;0.46" dur="4.8s" begin="0.0s" repeatCount="indefinite" />
             </rect>
-            <text x="113" y="280" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">0</text>
-            <text x="113" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">01/08</text>
+            <text x="113" y="260" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">3</text>
+            <text x="113" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">08/08</text>
             
-            <rect x="190" y="288" width="54" height="14" rx="4" fill="#32d9ff" fill-opacity="0.72">
+            <rect x="190" y="234" width="54" height="68" rx="4" fill="#32d9ff" fill-opacity="0.72">
             <animate attributeName="fill-opacity" values="0.46;0.82;0.46" dur="4.8s" begin="0.2s" repeatCount="indefinite" />
             </rect>
-            <text x="217" y="280" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">0</text>
-            <text x="217" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">06/08</text>
+            <text x="217" y="226" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">8</text>
+            <text x="217" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">13/08</text>
             
-            <rect x="294" y="234" width="54" height="68" rx="4" fill="#32d9ff" fill-opacity="0.72">
+            <rect x="294" y="288" width="54" height="14" rx="4" fill="#32d9ff" fill-opacity="0.72">
             <animate attributeName="fill-opacity" values="0.46;0.82;0.46" dur="4.8s" begin="0.4s" repeatCount="indefinite" />
             </rect>
-            <text x="321" y="226" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">11</text>
-            <text x="321" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">11/08</text>
+            <text x="321" y="280" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">0</text>
+            <text x="321" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">18/08</text>
             
             <rect x="398" y="288" width="54" height="14" rx="4" fill="#32d9ff" fill-opacity="0.72">
             <animate attributeName="fill-opacity" values="0.46;0.82;0.46" dur="4.8s" begin="0.6s" repeatCount="indefinite" />
             </rect>
             <text x="425" y="280" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">0</text>
-            <text x="425" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">16/08</text>
+            <text x="425" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">23/08</text>
             
             <rect x="502" y="288" width="54" height="14" rx="4" fill="#32d9ff" fill-opacity="0.72">
             <animate attributeName="fill-opacity" values="0.46;0.82;0.46" dur="4.8s" begin="0.8s" repeatCount="indefinite" />
             </rect>
             <text x="529" y="280" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">0</text>
-            <text x="529" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">21/08</text>
+            <text x="529" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">28/08</text>
             
             <rect x="606" y="288" width="54" height="14" rx="4" fill="#32d9ff" fill-opacity="0.72">
             <animate attributeName="fill-opacity" values="0.46;0.82;0.46" dur="4.8s" begin="1.0s" repeatCount="indefinite" />
             </rect>
             <text x="633" y="280" text-anchor="middle" class="mono" font-size="10" fill="#a9b7cb">0</text>
-            <text x="633" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">26/08</text>
+            <text x="633" y="323" text-anchor="middle" class="mono" font-size="10" fill="#71839d">02/09</text>
             
 
     <rect x="800" y="190" width="368" height="152" rx="10" fill="#0d1522" stroke="#26384f" />
